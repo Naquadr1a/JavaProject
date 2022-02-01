@@ -9,14 +9,12 @@ public class HomeWorkApp {
     }
 
     public static void printThreeWords() {
-        System.out.println(" ");
         System.out.println("Orange");
         System.out.println("Banana");
         System.out.println("Apple");
     }
 
     public static void checkSumSign() {
-        System.out.println(" ");
         int a = 9, b = -3;;
         int c = a + b;
         if (c >= 0) {
@@ -27,7 +25,6 @@ public class HomeWorkApp {
     }
 
     public static void printColor() {
-        System.out.println(" ");
         int value = 101;
         if (value <= 0) {
             System.out.println("Красный");
@@ -37,8 +34,8 @@ public class HomeWorkApp {
             System.out.println("Желтый");
         }
     }
+
     public static void compareNumbers() {
-        System.out.println(" ");
         int a = 6, b = 4;
         if (a >= b) {
             System.out.println("a >= b");
