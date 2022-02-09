@@ -36,9 +36,9 @@ public class Worker {
         workArr[3] = new Worker("Наталия Лис", "Учитель английского языка", "lis_lis@ukr.net", "+380123456321", 10000, 42);
         workArr[4] = new Worker("Ирина Захарова", "Учитель биологии", "380123456654@ukr.net", "+380123456654", 11000, 39);
 
-        for (int i = 0; i < workArr.length; i++) {           // Выбираем работников старше 40 лет
-            if (workArr[i].age > 40) {
-                printInformation(workArr[i]);
+        for (Worker worker : workArr) {           // Выбираем работников старше 40 лет
+            if (worker.age > 40) {
+                printInformation(worker);
             }
         }
     }
